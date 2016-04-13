@@ -1,171 +1,32 @@
-# Latvian translation for openobject-addons
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * project_gtd
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-12-21 17:06+0000\n"
-"PO-Revision-Date: 2011-01-02 08:16+0000\n"
-"Last-Translator: OpenERP Administrators <Unknown>\n"
-"Language-Team: Latvian <lv@li.org>\n"
+"Project-Id-Version: project (8.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-31 18:04+0000\n"
+"PO-Revision-Date: 2015-07-21 19:20+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Latvian (http://www.transifex.com/oca/OCA-project-8-0/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-22 07:06+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
+"Content-Transfer-Encoding: \n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "In Progress"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show only tasks having a deadline"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Reactivate"
-msgstr "Aktivizēt atkal"
-
-#. module: project_gtd
-#: help:project.task,timebox_id:0
-msgid "Time-laps during which task has to be treated"
-msgstr "Laika sprīži, kad jātiek galā ar uzdevumu"
-
-#. module: project_gtd
-#: help:project.gtd.timebox,sequence:0
-msgid "Gives the sequence order when displaying a list of timebox."
-msgstr "Attēlo laika sprīžu sarakstu secībā pēc kārtas."
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_travel
-msgid "Travel"
-msgstr "Ceļojumi"
-
-#. module: project_gtd
-#: view:project.timebox.empty:0
-msgid "Timebox Empty Process Completed Successfully."
-msgstr "Laika sprīža iztukšošanas process noslēdzies veiksmīgi."
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending Tasks"
-msgstr ""
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "No timebox child of this one !"
-msgstr "Šim laika sprīdima nav pakarātotā!"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
-msgid ""
-"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
-"defines a period of time in order to categorize your tasks: today, this "
-"week, this month, long term."
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_daily
-msgid "Today"
-msgstr "Šodien"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Timeframe"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_lt
-msgid "Long Term"
-msgstr "Ilgtermiņa"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_empty
-msgid "Project Timebox Empty"
-msgstr "Projekta laika sprīdis tukšs"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-#: field:project.gtd.timebox,name:0
-#: field:project.task,timebox_id:0
-msgid "Timebox"
-msgstr "Laika sprīdis"
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_to_id:0
-msgid "Set to Timebox"
-msgstr "Iestatīt par laika sprīdi"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
-#: view:project.task:0
-msgid "My Tasks"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.task,context_id:0
-msgid "The context place where user has to treat task"
-msgstr "Konteksta vieta, kur lietotājam jātiek galā ar uzdevumu"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
-#: view:project.timebox.empty:0
-msgid "Empty Timebox"
-msgstr "Iztīrīt laika sprīdi"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Tasks having no timebox assigned yet"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
-msgid "This Week"
-msgstr "Šajā nedēļā"
-
-#. module: project_gtd
-#: field:project.gtd.timebox,icon:0
-msgid "Icon"
-msgstr "Ikona"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
-msgid "Project Timebox Fill"
-msgstr "Projekta laika sprīža aizpildīšana"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_task
-msgid "Task"
-msgstr "Uzdevums"
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
 msgid "Add to Timebox"
 msgstr "Pievienot laika sprīdīm"
 
 #. module: project_gtd
-#: field:project.timebox.empty,name:0
-msgid "Name"
-msgstr "Nosaukums"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
-msgid "Contexts"
-msgstr "Konteksts"
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Cancel"
+msgstr ""
 
 #. module: project_gtd
 #: model:project.gtd.context,name:project_gtd.context_car
@@ -173,107 +34,20 @@ msgid "Car"
 msgstr "Mašīna"
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "Show Context"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
-#: view:project.timebox.fill.plan:0
-msgid "Plannify Timebox"
-msgstr "Plānot laika sprīdi"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_gtd_timebox
-msgid "project.gtd.timebox"
-msgstr "project.gtd.timebox"
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "Error!"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
-#: view:project.gtd.timebox:0
-msgid "Timeboxes"
-msgstr "Laika sprīži"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "In Progress and draft tasks"
-msgstr ""
-
-#. module: project_gtd
 #: model:ir.model,name:project_gtd.model_project_gtd_context
-#: view:project.gtd.context:0
+#: view:project.gtd.context:project_gtd.view_gtd_context_form
+#: view:project.gtd.context:project_gtd.view_gtd_context_tree
 #: field:project.gtd.context,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
 #: field:project.task,context_id:0
 msgid "Context"
 msgstr "Konteksts"
 
 #. module: project_gtd
-#: field:project.timebox.fill.plan,task_ids:0
-msgid "Tasks selection"
-msgstr "Uzdevumu izvēlēšanās"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Display"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_office
-msgid "Office"
-msgstr "Birojs"
-
-#. module: project_gtd
-#: field:project.gtd.context,sequence:0
-#: field:project.gtd.timebox,sequence:0
-msgid "Sequence"
-msgstr "Secība"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show the context field"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.gtd.context,sequence:0
-msgid "Gives the sequence order when displaying a list of contexts."
-msgstr "Attēlo kontekstu sarakstu secībā pēc kārtas."
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show Deadlines"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-msgid "Timebox Definition"
-msgstr "Laika sprīža definīcija"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Inbox"
-msgstr "Ienākošie"
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_id:0
-msgid "Get from Timebox"
-msgstr "Paņemt no laika sprīža"
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
-msgid "Cancel"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_home
-msgid "Home"
-msgstr "Mājas"
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
+msgid "Contexts"
+msgstr "Konteksts"
 
 #. module: project_gtd
 #: model:ir.actions.act_window,help:project_gtd.open_gtd_context_tree
@@ -284,44 +58,213 @@ msgid ""
 msgstr ""
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "For reopening the tasks"
+#: field:project.gtd.context,create_uid:0
+#: field:project.gtd.timebox,create_uid:0
+#: field:project.timebox.empty,create_uid:0
+#: field:project.timebox.fill.plan,create_uid:0
+msgid "Created by"
 msgstr ""
 
 #. module: project_gtd
-#: view:project.timebox.fill.plan:0
-msgid "or"
+#: field:project.gtd.context,create_date:0
+#: field:project.gtd.timebox,create_date:0
+#: field:project.timebox.empty,create_date:0
+#: field:project.timebox.fill.plan,create_date:0
+msgid "Created on"
 msgstr ""
 
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Empty Timebox"
+msgstr "Iztīrīt laika sprīdi"
+
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
 #, python-format
-#~ msgid "GTD"
-#~ msgstr "GTD"
+msgid "Error!"
+msgstr ""
 
-#~ msgid "Error ! You cannot create recursive tasks."
-#~ msgstr "Kļūda! Nedrīkst veidot rekursīvus uzdevumus."
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_id:0
+msgid "Get from Timebox"
+msgstr "Paņemt no laika sprīža"
 
-#~ msgid "_Cancel"
-#~ msgstr "_Atcelt"
+#. module: project_gtd
+#: help:project.gtd.context,sequence:0
+msgid "Gives the sequence order when displaying a list of contexts."
+msgstr "Attēlo kontekstu sarakstu secībā pēc kārtas."
 
+#. module: project_gtd
+#: help:project.gtd.timebox,sequence:0
+msgid "Gives the sequence order when displaying a list of timebox."
+msgstr "Attēlo laika sprīžu sarakstu secībā pēc kārtas."
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_home
+msgid "Home"
+msgstr "Mājas"
+
+#. module: project_gtd
+#: field:project.gtd.context,id:0 field:project.gtd.timebox,id:0
+#: field:project.timebox.empty,id:0 field:project.timebox.fill.plan,id:0
+msgid "ID"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.task:project_gtd.view_task_gtd_search
+msgid "Last Message"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,write_uid:0 field:project.gtd.timebox,write_uid:0
+#: field:project.timebox.empty,write_uid:0
+#: field:project.timebox.fill.plan,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,write_date:0
+#: field:project.gtd.timebox,write_date:0
+#: field:project.timebox.empty,write_date:0
+#: field:project.timebox.fill.plan,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_lt
+msgid "Long Term"
+msgstr "Ilgtermiņa"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
+msgid "My Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.empty,name:0
+msgid "Name"
+msgstr "Nosaukums"
+
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
 #, python-format
-#~ msgid "Error !"
-#~ msgstr "Kļūda!"
+msgid "No timebox child of this one!"
+msgstr ""
 
-#~ msgid "Getting Things Done - Time Management Module"
-#~ msgstr "Getting Things Done - Laika vadības modulis"
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_office
+msgid "Office"
+msgstr "Birojs"
 
-#~ msgid "This Month"
-#~ msgstr "Šajā mēnesī"
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Plannify Timebox"
+msgstr "Plānot laika sprīdi"
 
-#~ msgid "Next"
-#~ msgstr "Nākamais"
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_empty
+msgid "Project Timebox Empty"
+msgstr "Projekta laika sprīdis tukšs"
 
-#, python-format
-#~ msgid "Getting Things Done"
-#~ msgstr "Getting Things Done"
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
+msgid "Project Timebox Fill"
+msgstr "Projekta laika sprīža aizpildīšana"
 
-#~ msgid "_Ok"
-#~ msgstr "_Labi"
+#. module: project_gtd
+#: field:project.gtd.context,sequence:0 field:project.gtd.timebox,sequence:0
+msgid "Sequence"
+msgstr "Secība"
 
-#~ msgid "Previous"
-#~ msgstr "Iepriekšējais"
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_to_id:0
+msgid "Set to Timebox"
+msgstr "Iestatīt par laika sprīdi"
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_task
+msgid "Task"
+msgstr "Uzdevums"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_all_tasks
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_all_tree
+msgid "Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,task_ids:0
+msgid "Tasks selection"
+msgstr "Uzdevumu izvēlēšanās"
+
+#. module: project_gtd
+#: help:project.task,context_id:0
+msgid "The context place where user has to treat task"
+msgstr "Konteksta vieta, kur lietotājam jātiek galā ar uzdevumu"
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
+msgid "This Week"
+msgstr "Šajā nedēļā"
+
+#. module: project_gtd
+#: help:project.task,timebox_id:0
+msgid "Time-laps during which task has to be treated"
+msgstr "Laika sprīži, kad jātiek galā ar uzdevumu"
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_tree
+#: field:project.gtd.timebox,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
+#: field:project.task,timebox_id:0
+msgid "Timebox"
+msgstr "Laika sprīdis"
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timebox Definition"
+msgstr "Laika sprīža definīcija"
+
+#. module: project_gtd
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Timebox Empty Process Completed Successfully."
+msgstr "Laika sprīža iztukšošanas process noslēdzies veiksmīgi."
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timeboxes"
+msgstr "Laika sprīži"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
+msgid ""
+"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
+"defines a period of time in order to categorize your tasks: today, this "
+"week, this month, long term."
+msgstr ""
+
+#. module: project_gtd
+#: view:project.task:project_gtd.project_task
+#: view:project.task:project_gtd.project_task_tree
+msgid "Timeframe"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_daily
+msgid "Today"
+msgstr "Šodien"
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_travel
+msgid "Travel"
+msgstr "Ceļojumi"
+
+#. module: project_gtd
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "or"
+msgstr ""

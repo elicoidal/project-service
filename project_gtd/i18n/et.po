@@ -1,170 +1,31 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* project_gtd
-#
+# * project_gtd
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 6.0dev\n"
-"Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2012-12-21 17:06+0000\n"
-"PO-Revision-Date: 2009-11-09 19:27+0000\n"
-"Last-Translator: Fabien (Open ERP) <fp@tinyerp.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: project (8.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-31 18:04+0000\n"
+"PO-Revision-Date: 2015-07-21 19:20+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Estonian (http://www.transifex.com/oca/OCA-project-8-0/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-22 07:06+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "In Progress"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show only tasks having a deadline"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Reactivate"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.task,timebox_id:0
-msgid "Time-laps during which task has to be treated"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.gtd.timebox,sequence:0
-msgid "Gives the sequence order when displaying a list of timebox."
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_travel
-msgid "Travel"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.timebox.empty:0
-msgid "Timebox Empty Process Completed Successfully."
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending Tasks"
-msgstr ""
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "No timebox child of this one !"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
-msgid ""
-"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
-"defines a period of time in order to categorize your tasks: today, this "
-"week, this month, long term."
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_daily
-msgid "Today"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Timeframe"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_lt
-msgid "Long Term"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_empty
-msgid "Project Timebox Empty"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-#: field:project.gtd.timebox,name:0
-#: field:project.task,timebox_id:0
-msgid "Timebox"
-msgstr "Ajalahter"
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_to_id:0
-msgid "Set to Timebox"
-msgstr "Määra ajalahtriks"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
-#: view:project.task:0
-msgid "My Tasks"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.task,context_id:0
-msgid "The context place where user has to treat task"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
-#: view:project.timebox.empty:0
-msgid "Empty Timebox"
-msgstr "Tühjenda ajalahter"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Tasks having no timebox assigned yet"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
-msgid "This Week"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.gtd.timebox,icon:0
-msgid "Icon"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
-msgid "Project Timebox Fill"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_task
-msgid "Task"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
 msgid "Add to Timebox"
 msgstr "Lisa ajalahtrisse"
 
 #. module: project_gtd
-#: field:project.timebox.empty,name:0
-msgid "Name"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
-msgid "Contexts"
-msgstr "Kontekstid"
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Cancel"
+msgstr "Tühista"
 
 #. module: project_gtd
 #: model:project.gtd.context,name:project_gtd.context_car
@@ -172,107 +33,20 @@ msgid "Car"
 msgstr ""
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "Show Context"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
-#: view:project.timebox.fill.plan:0
-msgid "Plannify Timebox"
-msgstr "Planeeri ajalahter"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_gtd_timebox
-msgid "project.gtd.timebox"
-msgstr "project.gtd.timebox"
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "Error!"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
-#: view:project.gtd.timebox:0
-msgid "Timeboxes"
-msgstr "Ajalahtrid"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "In Progress and draft tasks"
-msgstr ""
-
-#. module: project_gtd
 #: model:ir.model,name:project_gtd.model_project_gtd_context
-#: view:project.gtd.context:0
+#: view:project.gtd.context:project_gtd.view_gtd_context_form
+#: view:project.gtd.context:project_gtd.view_gtd_context_tree
 #: field:project.gtd.context,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
 #: field:project.task,context_id:0
 msgid "Context"
 msgstr "Kontekst"
 
 #. module: project_gtd
-#: field:project.timebox.fill.plan,task_ids:0
-msgid "Tasks selection"
-msgstr "Ülesannete valik"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Display"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_office
-msgid "Office"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.gtd.context,sequence:0
-#: field:project.gtd.timebox,sequence:0
-msgid "Sequence"
-msgstr "Järjekord"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show the context field"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.gtd.context,sequence:0
-msgid "Gives the sequence order when displaying a list of contexts."
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show Deadlines"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-msgid "Timebox Definition"
-msgstr "Ajalahtri definitsioon"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Inbox"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_id:0
-msgid "Get from Timebox"
-msgstr "Saa ajalahtrist"
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
-msgid "Cancel"
-msgstr "Tühista"
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_home
-msgid "Home"
-msgstr ""
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
+msgid "Contexts"
+msgstr "Kontekstid"
 
 #. module: project_gtd
 #: model:ir.actions.act_window,help:project_gtd.open_gtd_context_tree
@@ -283,137 +57,213 @@ msgid ""
 msgstr ""
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "For reopening the tasks"
+#: field:project.gtd.context,create_uid:0
+#: field:project.gtd.timebox,create_uid:0
+#: field:project.timebox.empty,create_uid:0
+#: field:project.timebox.fill.plan,create_uid:0
+msgid "Created by"
 msgstr ""
 
 #. module: project_gtd
-#: view:project.timebox.fill.plan:0
-msgid "or"
+#: field:project.gtd.context,create_date:0
+#: field:project.gtd.timebox,create_date:0
+#: field:project.timebox.empty,create_date:0
+#: field:project.timebox.fill.plan,create_date:0
+msgid "Created on"
 msgstr ""
 
-#~ msgid ""
-#~ "The Object name must start with x_ and not contain any special character !"
-#~ msgstr ""
-#~ "Objekti nimi peab algama x_'ga ja ei tohi sisaldada ühtegi erisümbolit !"
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Empty Timebox"
+msgstr "Tühjenda ajalahter"
 
-#~ msgid "Invalid XML for View Architecture!"
-#~ msgstr "Vigane XML vaate arhitektuurile!"
-
-#~ msgid "My Pending Tasks"
-#~ msgstr "Minu lahtised ülesanded"
-
-#~ msgid "Planned"
-#~ msgstr "Planeeritud"
-
-#~ msgid "Tasks"
-#~ msgstr "Ülesanded"
-
-#~ msgid "Priority"
-#~ msgstr "Prioriteet"
-
-#~ msgid "Visible Columns"
-#~ msgstr "Nähtavad tulbad"
-
-#~ msgid "Parent Timebox"
-#~ msgstr "Ülem ajalahter"
-
-#~ msgid "Monthly"
-#~ msgstr "Igakuine"
-
-#~ msgid "My Deadlines"
-#~ msgstr "Minu tähtajad"
-
-#~ msgid "My Inbox"
-#~ msgstr "Minu sisendkaust"
-
-#~ msgid "Default Project"
-#~ msgstr "Vaikimisi projekt"
-
-#~ msgid "Timebox Tasks"
-#~ msgstr "Ajalahtri ülesanded"
-
-#~ msgid "Context 4"
-#~ msgstr "Kontekst 4"
-
-#~ msgid "Other"
-#~ msgstr "Muu"
-
-#~ msgid "Timebox tasks selection"
-#~ msgstr "Ajalahtri ülesannete valik"
-
-#~ msgid "Effective Hours"
-#~ msgstr "Efektiivsed tunnid"
-
-#~ msgid "Invalid model name in the action definition."
-#~ msgstr "Vigane mudeli nimi toimingu definitsioonis."
-
-#~ msgid "Type"
-#~ msgstr "Tüüp"
-
-#~ msgid "Context 3"
-#~ msgstr "Kontekst 3"
-
-#~ msgid "Context 2"
-#~ msgstr "Kontekst 2"
-
-#~ msgid "Inbox Tasks"
-#~ msgstr "Ülesannete sisendkast"
-
-#~ msgid "My Daily Timebox"
-#~ msgstr "Minu igapäevane ajalahter"
-
-#~ msgid "User"
-#~ msgstr "Kasutaja"
-
-#~ msgid "Context 1"
-#~ msgstr "Kontekst 1"
-
-#~ msgid "project.gtd.context"
-#~ msgstr "project.gtd.context"
-
-#~ msgid "Context 6"
-#~ msgstr "Kontekst 6"
-
-#~ msgid "Context 5"
-#~ msgstr "Kontekst 5"
-
-#~ msgid "Daily"
-#~ msgstr "Igapäevane"
-
-#~ msgid "My Timeboxes"
-#~ msgstr "Minu ajalahtrid"
-
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
 #, python-format
-#~ msgid "Getting Things Done"
-#~ msgstr "Saa asjad tehtud"
+msgid "Error!"
+msgstr ""
 
-#~ msgid "Time Management"
-#~ msgstr "Ajahaldus"
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_id:0
+msgid "Get from Timebox"
+msgstr "Saa ajalahtrist"
 
-#~ msgid "My Open Tasks"
-#~ msgstr "Minu lahtised ülesanded"
+#. module: project_gtd
+#: help:project.gtd.context,sequence:0
+msgid "Gives the sequence order when displaying a list of contexts."
+msgstr ""
 
-#~ msgid "Deadline"
-#~ msgstr "Tähtaeg"
+#. module: project_gtd
+#: help:project.gtd.timebox,sequence:0
+msgid "Gives the sequence order when displaying a list of timebox."
+msgstr ""
 
-#~ msgid "All My Timeboxes"
-#~ msgstr "Kõik minu ajalahtrid"
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_home
+msgid "Home"
+msgstr ""
 
-#~ msgid "Child Timeboxes"
-#~ msgstr "Alam ajalahtrid"
+#. module: project_gtd
+#: field:project.gtd.context,id:0 field:project.gtd.timebox,id:0
+#: field:project.timebox.empty,id:0 field:project.timebox.fill.plan,id:0
+msgid "ID"
+msgstr ""
 
-#~ msgid "Getting Things Done - Time Management Module"
-#~ msgstr "Saa asjad tehtud - Ajahalduse moodul"
+#. module: project_gtd
+#: view:project.task:project_gtd.view_task_gtd_search
+msgid "Last Message"
+msgstr ""
 
-#~ msgid "Weekly"
-#~ msgstr "Iganädalane"
+#. module: project_gtd
+#: field:project.gtd.context,write_uid:0 field:project.gtd.timebox,write_uid:0
+#: field:project.timebox.empty,write_uid:0
+#: field:project.timebox.fill.plan,write_uid:0
+msgid "Last Updated by"
+msgstr ""
 
-#~ msgid "Date Start"
-#~ msgstr "Alguskuupäev"
+#. module: project_gtd
+#: field:project.gtd.context,write_date:0
+#: field:project.gtd.timebox,write_date:0
+#: field:project.timebox.empty,write_date:0
+#: field:project.timebox.fill.plan,write_date:0
+msgid "Last Updated on"
+msgstr ""
 
-#~ msgid "Planned Hours"
-#~ msgstr "Planeeritud tunnid"
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_lt
+msgid "Long Term"
+msgstr ""
 
-#~ msgid "Project"
-#~ msgstr "Projekt"
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
+msgid "My Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.empty,name:0
+msgid "Name"
+msgstr ""
+
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
+#, python-format
+msgid "No timebox child of this one!"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_office
+msgid "Office"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Plannify Timebox"
+msgstr "Planeeri ajalahter"
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_empty
+msgid "Project Timebox Empty"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
+msgid "Project Timebox Fill"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,sequence:0 field:project.gtd.timebox,sequence:0
+msgid "Sequence"
+msgstr "Järjekord"
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_to_id:0
+msgid "Set to Timebox"
+msgstr "Määra ajalahtriks"
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_task
+msgid "Task"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_all_tasks
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_all_tree
+msgid "Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,task_ids:0
+msgid "Tasks selection"
+msgstr "Ülesannete valik"
+
+#. module: project_gtd
+#: help:project.task,context_id:0
+msgid "The context place where user has to treat task"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
+msgid "This Week"
+msgstr ""
+
+#. module: project_gtd
+#: help:project.task,timebox_id:0
+msgid "Time-laps during which task has to be treated"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_tree
+#: field:project.gtd.timebox,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
+#: field:project.task,timebox_id:0
+msgid "Timebox"
+msgstr "Ajalahter"
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timebox Definition"
+msgstr "Ajalahtri definitsioon"
+
+#. module: project_gtd
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Timebox Empty Process Completed Successfully."
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timeboxes"
+msgstr "Ajalahtrid"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
+msgid ""
+"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
+"defines a period of time in order to categorize your tasks: today, this "
+"week, this month, long term."
+msgstr ""
+
+#. module: project_gtd
+#: view:project.task:project_gtd.project_task
+#: view:project.task:project_gtd.project_task_tree
+msgid "Timeframe"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_daily
+msgid "Today"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_travel
+msgid "Travel"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "or"
+msgstr ""

@@ -1,171 +1,32 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * project_gtd
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-12-21 17:06+0000\n"
-"PO-Revision-Date: 2013-02-06 22:09+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"Project-Id-Version: project (8.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-31 18:04+0000\n"
+"PO-Revision-Date: 2015-07-21 19:20+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Turkish (http://www.transifex.com/oca/OCA-project-8-0/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-22 07:06+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "In Progress"
-msgstr "DevamEden"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show only tasks having a deadline"
-msgstr "Sadece zamanSınırı olan görevleri göster"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Reactivate"
-msgstr "Yeniden Etkinleştir"
-
-#. module: project_gtd
-#: help:project.task,timebox_id:0
-msgid "Time-laps during which task has to be treated"
-msgstr ""
-
-#. module: project_gtd
-#: help:project.gtd.timebox,sequence:0
-msgid "Gives the sequence order when displaying a list of timebox."
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_travel
-msgid "Travel"
-msgstr "Seyahat"
-
-#. module: project_gtd
-#: view:project.timebox.empty:0
-msgid "Timebox Empty Process Completed Successfully."
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending Tasks"
-msgstr "Bekleyen Görevler"
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "No timebox child of this one !"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
-msgid ""
-"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
-"defines a period of time in order to categorize your tasks: today, this "
-"week, this month, long term."
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_daily
-msgid "Today"
-msgstr "Bugün"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Timeframe"
-msgstr "Zaman Aralığı"
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_lt
-msgid "Long Term"
-msgstr "Uzun Dönem"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_empty
-msgid "Project Timebox Empty"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Pending"
-msgstr "Bekleyen"
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-#: field:project.gtd.timebox,name:0
-#: field:project.task,timebox_id:0
-msgid "Timebox"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_to_id:0
-msgid "Set to Timebox"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
-#: view:project.task:0
-msgid "My Tasks"
-msgstr "Görevlerim"
-
-#. module: project_gtd
-#: help:project.task,context_id:0
-msgid "The context place where user has to treat task"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
-#: view:project.timebox.empty:0
-msgid "Empty Timebox"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Tasks having no timebox assigned yet"
-msgstr ""
-
-#. module: project_gtd
-#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
-msgid "This Week"
-msgstr "Bu Hafta"
-
-#. module: project_gtd
-#: field:project.gtd.timebox,icon:0
-msgid "Icon"
-msgstr "İkon"
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
-msgid "Project Timebox Fill"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_task
-msgid "Task"
-msgstr "Görev"
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
 msgid "Add to Timebox"
 msgstr ""
 
 #. module: project_gtd
-#: field:project.timebox.empty,name:0
-msgid "Name"
-msgstr "Adı"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
-msgid "Contexts"
-msgstr "Bağlamları"
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Cancel"
+msgstr "iptal"
 
 #. module: project_gtd
 #: model:project.gtd.context,name:project_gtd.context_car
@@ -173,107 +34,20 @@ msgid "Car"
 msgstr "Araba"
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "Show Context"
-msgstr "Göster Bağlamı"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
-#: view:project.timebox.fill.plan:0
-msgid "Plannify Timebox"
-msgstr ""
-
-#. module: project_gtd
-#: model:ir.model,name:project_gtd.model_project_gtd_timebox
-msgid "project.gtd.timebox"
-msgstr ""
-
-#. module: project_gtd
-#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
-#, python-format
-msgid "Error!"
-msgstr "Hata!"
-
-#. module: project_gtd
-#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
-#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
-#: view:project.gtd.timebox:0
-msgid "Timeboxes"
-msgstr "Timeboxes"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "In Progress and draft tasks"
-msgstr "DevamEden ve taslak görevleri"
-
-#. module: project_gtd
 #: model:ir.model,name:project_gtd.model_project_gtd_context
-#: view:project.gtd.context:0
+#: view:project.gtd.context:project_gtd.view_gtd_context_form
+#: view:project.gtd.context:project_gtd.view_gtd_context_tree
 #: field:project.gtd.context,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
 #: field:project.task,context_id:0
 msgid "Context"
 msgstr "Bağlam"
 
 #. module: project_gtd
-#: field:project.timebox.fill.plan,task_ids:0
-msgid "Tasks selection"
-msgstr "Görev seçimi"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Display"
-msgstr "Ekran"
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_office
-msgid "Office"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.gtd.context,sequence:0
-#: field:project.gtd.timebox,sequence:0
-msgid "Sequence"
-msgstr "Sıralama"
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show the context field"
-msgstr "Bağlam alanında göster"
-
-#. module: project_gtd
-#: help:project.gtd.context,sequence:0
-msgid "Gives the sequence order when displaying a list of contexts."
-msgstr "Bağlamlarda bir listesini görüntüleme sırasını verir."
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Show Deadlines"
-msgstr "Göster ZamanSınırı"
-
-#. module: project_gtd
-#: view:project.gtd.timebox:0
-msgid "Timebox Definition"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.task:0
-msgid "Inbox"
-msgstr ""
-
-#. module: project_gtd
-#: field:project.timebox.fill.plan,timebox_id:0
-msgid "Get from Timebox"
-msgstr ""
-
-#. module: project_gtd
-#: view:project.timebox.fill.plan:0
-msgid "Cancel"
-msgstr "iptal"
-
-#. module: project_gtd
-#: model:project.gtd.context,name:project_gtd.context_home
-msgid "Home"
-msgstr ""
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_context_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_contexts
+msgid "Contexts"
+msgstr "Bağlamları"
 
 #. module: project_gtd
 #: model:ir.actions.act_window,help:project_gtd.open_gtd_context_tree
@@ -284,74 +58,213 @@ msgid ""
 msgstr ""
 
 #. module: project_gtd
-#: view:project.task:0
-msgid "For reopening the tasks"
-msgstr "veya görevleri yeniden açılması"
+#: field:project.gtd.context,create_uid:0
+#: field:project.gtd.timebox,create_uid:0
+#: field:project.timebox.empty,create_uid:0
+#: field:project.timebox.fill.plan,create_uid:0
+msgid "Created by"
+msgstr ""
 
 #. module: project_gtd
-#: view:project.timebox.fill.plan:0
+#: field:project.gtd.context,create_date:0
+#: field:project.gtd.timebox,create_date:0
+#: field:project.timebox.empty,create_date:0
+#: field:project.timebox.fill.plan,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_empty
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Empty Timebox"
+msgstr ""
+
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
+#, python-format
+msgid "Error!"
+msgstr "Hata!"
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_id:0
+msgid "Get from Timebox"
+msgstr ""
+
+#. module: project_gtd
+#: help:project.gtd.context,sequence:0
+msgid "Gives the sequence order when displaying a list of contexts."
+msgstr "Bağlamlarda bir listesini görüntüleme sırasını verir."
+
+#. module: project_gtd
+#: help:project.gtd.timebox,sequence:0
+msgid "Gives the sequence order when displaying a list of timebox."
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_home
+msgid "Home"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,id:0 field:project.gtd.timebox,id:0
+#: field:project.timebox.empty,id:0 field:project.timebox.fill.plan,id:0
+msgid "ID"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.task:project_gtd.view_task_gtd_search
+msgid "Last Message"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,write_uid:0 field:project.gtd.timebox,write_uid:0
+#: field:project.timebox.empty,write_uid:0
+#: field:project.timebox.fill.plan,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,write_date:0
+#: field:project.gtd.timebox,write_date:0
+#: field:project.timebox.empty,write_date:0
+#: field:project.timebox.fill.plan,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_lt
+msgid "Long Term"
+msgstr "Uzun Dönem"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_task
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_tree
+msgid "My Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.empty,name:0
+msgid "Name"
+msgstr "Adı"
+
+#. module: project_gtd
+#: code:addons/project_gtd/wizard/project_gtd_empty.py:52
+#, python-format
+msgid "No timebox child of this one!"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_office
+msgid "Office"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.action_project_gtd_fill
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
+msgid "Plannify Timebox"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_empty
+msgid "Project Timebox Empty"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_timebox_fill_plan
+msgid "Project Timebox Fill"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.gtd.context,sequence:0 field:project.gtd.timebox,sequence:0
+msgid "Sequence"
+msgstr "Sıralama"
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,timebox_to_id:0
+msgid "Set to Timebox"
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.model,name:project_gtd.model_project_task
+msgid "Task"
+msgstr "Görev"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_all_tasks
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_timebox_all_tree
+msgid "Tasks (GTD)"
+msgstr ""
+
+#. module: project_gtd
+#: field:project.timebox.fill.plan,task_ids:0
+msgid "Tasks selection"
+msgstr "Görev seçimi"
+
+#. module: project_gtd
+#: help:project.task,context_id:0
+msgid "The context place where user has to treat task"
+msgstr ""
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_weekly
+msgid "This Week"
+msgstr "Bu Hafta"
+
+#. module: project_gtd
+#: help:project.task,timebox_id:0
+msgid "Time-laps during which task has to be treated"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_tree
+#: field:project.gtd.timebox,name:0
+#: view:project.task:project_gtd.view_task_gtd_search
+#: field:project.task,timebox_id:0
+msgid "Timebox"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timebox Definition"
+msgstr ""
+
+#. module: project_gtd
+#: view:project.timebox.empty:project_gtd.view_project_gtd_empty
+msgid "Timebox Empty Process Completed Successfully."
+msgstr ""
+
+#. module: project_gtd
+#: model:ir.actions.act_window,name:project_gtd.open_gtd_timebox_tree
+#: model:ir.ui.menu,name:project_gtd.menu_open_gtd_time_timeboxes
+#: view:project.gtd.timebox:project_gtd.view_gtd_timebox_form
+msgid "Timeboxes"
+msgstr "Timeboxes"
+
+#. module: project_gtd
+#: model:ir.actions.act_window,help:project_gtd.open_gtd_timebox_tree
+msgid ""
+"Timeboxes are defined in the \"Getting Things Done\" methodology. A timebox "
+"defines a period of time in order to categorize your tasks: today, this "
+"week, this month, long term."
+msgstr ""
+
+#. module: project_gtd
+#: view:project.task:project_gtd.project_task
+#: view:project.task:project_gtd.project_task_tree
+msgid "Timeframe"
+msgstr "Zaman Aralığı"
+
+#. module: project_gtd
+#: model:project.gtd.timebox,name:project_gtd.timebox_daily
+msgid "Today"
+msgstr "Bugün"
+
+#. module: project_gtd
+#: model:project.gtd.context,name:project_gtd.context_travel
+msgid "Travel"
+msgstr "Seyahat"
+
+#. module: project_gtd
+#: view:project.timebox.fill.plan:project_gtd.view_project_gtd_fill
 msgid "or"
 msgstr "veya"
-
-#~ msgid "Invalid XML for View Architecture!"
-#~ msgstr "Görüntüleme mimarisi için Geçersiz XML"
-
-#~ msgid "My Open Tasks"
-#~ msgstr "Açık Görevler"
-
-#~ msgid "My Deadlines"
-#~ msgstr "Benim Bitirme tarihlerim"
-
-#~ msgid "Monthly"
-#~ msgstr "Aylık"
-
-#~ msgid "Priority"
-#~ msgstr "Öncelik"
-
-#~ msgid "My Inbox"
-#~ msgstr "Gelen Kutum"
-
-#~ msgid "Other"
-#~ msgstr "Diğer"
-
-#~ msgid "Getting Things Done - Time Management Module"
-#~ msgstr "Getting Things Done - Zaman Yönetim Modülü"
-
-#~ msgid "Type"
-#~ msgstr "Tipi"
-
-#~ msgid "My Pending Tasks"
-#~ msgstr "Bekleyen Görevlerim"
-
-#~ msgid "User"
-#~ msgstr "Kullanıcı"
-
-#~ msgid "My Daily Timebox"
-#~ msgstr "Günlük Çalışma Aralığım"
-
-#~ msgid "Daily"
-#~ msgstr "Günlük"
-
-#~ msgid "Project"
-#~ msgstr "Proje"
-
-#~ msgid "My Timeboxes"
-#~ msgstr "Çalışma Zaman Aralığım"
-
-#~ msgid "Time Management"
-#~ msgstr "Zaman Yönetimi"
-
-#~ msgid "Tasks"
-#~ msgstr "Görevler"
-
-#~ msgid "Child Timeboxes"
-#~ msgstr "Alt Zaman Aralıkları"
-
-#~ msgid "Deadline"
-#~ msgstr "Son Teslim Tarihi"
-
-#~ msgid "Date Start"
-#~ msgstr "Tarih Başlangıcı"
-
-#~ msgid "Planned Hours"
-#~ msgstr "Planlanan Saat"
